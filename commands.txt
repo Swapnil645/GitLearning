@@ -1,0 +1,11 @@
+Common Commands
+1- clone	- clone the respository into local machine
+2- add		- Track your files and changes in GIT
+3- commit	- Saves the changes in GIT
+4- push  	- Upload the commits to the repository
+5- pull	- pull the code from repository to local machine
+
+
+If the files are updated or newly created, we need to tell GIT to track those files.
+6- git status 			        - To get untracked and modified files.
+7- git add (. or filename.ext)  - To add all the  untracked and modiled files for tracking
