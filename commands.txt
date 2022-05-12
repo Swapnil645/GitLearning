@@ -1,11 +1,30 @@
-Common Commands
-1- clone	- clone the respository into local machine
-2- add		- Track your files and changes in GIT
-3- commit	- Saves the changes in GIT
-4- push  	- Upload the commits to the repository
-5- pull	- pull the code from repository to local machine
-
 
 If the files are updated or newly created, we need to tell GIT to track those files.
-6- git status 			        - To get untracked and modified files.
-7- git add (. or filename.ext)  - To add all the  untracked and modiled files for tracking
+1- git init                                             - converts a folder into GIT repository by adding .git file
+1- git status 			                                - To get untracked and modified files.
+2- git add (. or filename.ext)                          - To add all the  untracked and modified files for tracking
+3- git commit -m "some details" -m "some description"   - To commit all the chnages to GIT (locally)
+
+Sometimes it might ask you to confirm email address and username. In that case just run
+git config --global user.email "example@example"
+git config --global user.name "username"
+
+4- git push origin master  or  git push --repository link--
+    repository link can be a 
+    repo link  - Need of password everytime
+    ssh link - No need of passsword authentication or PAT
+
+PAT - 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
+
+
+SSH key Generation
+ssh-keygen -t rsa -b 4096 -C "swapnil.wankhede@konverge.ai"
+        -- This command generates private and public ssh key. By default it will be saved in  /home/swapnil/.ssh/id_rsa. Press enter to proceed.
+        -- Copy public key and 
+
+Creating a new Branch in GIT
+1. git branch
+2. git checkout -b "name of branch"   -- creates new branch
+3. git checkout "name of branch"        switches too another branch
+4.
+
